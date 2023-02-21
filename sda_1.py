@@ -22,9 +22,9 @@ def read_tabel_din_wiki():
 
 tabel = read_tabel_din_wiki()
 
-coloane = ['City', 'County', 'Population (2011)[2]', 'Population (2002)',\
-       'Elevation (m)', 'Year status granted (a) or first attested (b)',\
-        'Image']
+# coloane = ['City', 'County', 'Population (2011)[2]', 'Population (2002)',\
+#        'Elevation (m)', 'Year status granted (a) or first attested (b)',\
+#         'Image']
 
 #print(tabel.columns)
 #printeaza coloanele tabelului
