@@ -35,10 +35,10 @@ tabel = tabel.drop(["Image"], axis=1)
 #am scapat de coloana "Image" pentru ca nu avea date relevante
 
 #rename table columns df.rename(columns={'oldName1': 'newName1', 'oldName2': 'newName2'})
-tabel = tabel.rename(columns={"City":"Oras","County":"Judet","Population (2011)[2]":"Populatie 2011",\
-                              "Population (2002)":"Populatie 2002","Elevation (m)":"Altitudine",\
-                              "Year status granted (a) or first attested (b)":"Anul atestarii"})
+tabel = tabel.rename(columns={"City":"Oras","County":"Judet","Population (2011)[2]":"Populatie_2011",\
+                              "Population (2002)":"Populatie_2002","Elevation (m)":"Altitudine",\
+                              "Year status granted (a) or first attested (b)":"Anul_atestarii"})
 
-
+print(tabel.columns)
 
 
